@@ -1,0 +1,5 @@
+package: chatserver
+import:
+- package: github.com/gorilla/mux
+  version: v1.4.0
+- package: github.com/gorilla/websocket
