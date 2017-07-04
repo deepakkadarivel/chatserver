@@ -1,8 +1,18 @@
-hash: 63f35a19c0a3134de945a2f988630de6271b47130fd0d89b1eaf31ae45dfdde1
-updated: 2017-06-21T19:21:55.38477786+05:30
+hash: 1e83fe2d0d19b0d4704579f385443ddfb17f852be0b4aac3fde866c105557d2b
+updated: 2017-06-25T22:06:23.353362574+05:30
 imports:
+- name: github.com/auth0-community/go-auth0
+  version: 09caa56e7d44bd2b2f6e7ddbd6e7c509f0ecb28c
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
 - name: github.com/gorilla/mux
   version: bcd8bc72b08df0f70df986b97f95590779502d31
 - name: github.com/gorilla/websocket
   version: ea4d1f681babbce9545c9c5f3d5194a789c89f5b
+- name: gopkg.in/square/go-jose.v2
+  version: b25e6cab129e4a54675b42ea49d38e9c33ade9e6
+  subpackages:
+  - cipher
+  - json
+  - jwt
 testImports: []
